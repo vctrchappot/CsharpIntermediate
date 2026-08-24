@@ -1,0 +1,14 @@
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.AssemblyInfoInputs.cache
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.AssemblyInfo.cs
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.csproj.CoreCompileInputs.cache
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\bin\Debug\net10.0\02-multidimensional-arrays.exe
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\bin\Debug\net10.0\02-multidimensional-arrays.deps.json
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\bin\Debug\net10.0\02-multidimensional-arrays.runtimeconfig.json
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\bin\Debug\net10.0\02-multidimensional-arrays.dll
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\bin\Debug\net10.0\02-multidimensional-arrays.pdb
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.dll
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\refint\02-multidimensional-arrays.dll
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.pdb
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\02-multidimensional-arrays.genruntimeconfig.cache
+C:\Users\Victor.Chappot\Documents\GitHub\LearnToCode26\CsharpIntermediate\02-multidimensional-arrays\obj\Debug\net10.0\ref\02-multidimensional-arrays.dll
