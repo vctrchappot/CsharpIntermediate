@@ -21,11 +21,11 @@ class Program
             { 2, 9 }
         };
 
-        for (var zeile = 0; zeile < (multiDimensionalArray.GetLength(0)) ; zeile++)
+        for (var row = 0; row < (multiDimensionalArray.GetLength(0)) ; row++)
         {
-            for (var reihe = 0; reihe < (multiDimensionalArray.GetLength(1)); reihe++)
+            for (var column = 0; column < (multiDimensionalArray.GetLength(1)); column++)
             {
-                sum += multiDimensionalArray[zeile, reihe];
+                sum += multiDimensionalArray[row, column];
             }
         }
 
@@ -34,8 +34,6 @@ class Program
 
     private static int[] SumRow()
     {
-        var sum = new int[5];
-        
         var multiDimensionalArray = new int[,]
         {
             { 1, 2 }, 
@@ -44,12 +42,14 @@ class Program
             { 17, 2 }, 
             { 2, 9 }
         };
+        
+        var sum = new int[multiDimensionalArray.GetLength(0)];
 
-        for (var zeile = 0; zeile < (multiDimensionalArray.GetLength(0)) ; zeile++)
+        for (var row = 0; row < (multiDimensionalArray.GetLength(0)) ; row++)
         {
-            for (var reihe = 0; reihe < (multiDimensionalArray.GetLength(1)); reihe++)
+            for (var column = 0; column < (multiDimensionalArray.GetLength(1)); column++)
             {
-                sum[zeile] += multiDimensionalArray[zeile, reihe];
+                sum[row] += multiDimensionalArray[row, column];
             }
         }
 
