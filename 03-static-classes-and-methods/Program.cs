@@ -1,15 +1,17 @@
 ﻿namespace _03_static_classes_and_methods;
 
-class Calculator
+class Program
 {
-    static void Main(string[] args) // Main Methoden sind immer statisch, da Instanzen davon erstellt werden können.
+    static void Main(string[] args) // Main Methoden sind immer statisch, da keine Instanzen davon erstellt werden können.
     {
-        var numbers = RetrieveNumbers();
-        var result = SelectOperator(numbers);
+        var numbers = Calculator.RetrieveNumbers();
+        var result = Calculator.SelectOperator(numbers);
         Console.WriteLine($"The result {numbers[0]} {result[1]} {numbers[1]} is {result[0]}");
     }
-
-    private static int[] RetrieveNumbers()
+}
+public class Calculator
+{
+    public static int[] RetrieveNumbers()
     {
         var numbers = new int[2];
         
@@ -24,7 +26,7 @@ class Calculator
         return numbers;
     }
 
-    private static string[] SelectOperator(int[] numbers)
+    public static string[] SelectOperator(int[] numbers)
     {
         Console.WriteLine("Select the desired arithmetic operator:");
         Console.WriteLine("1. +");
