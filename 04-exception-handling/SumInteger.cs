@@ -2,31 +2,16 @@
 
 public class SumInteger
 {
-    public static int[] RetrieveNumbers()
+    public static int SumNumbers()
     {
-        var numbers = new int[2];
+        Console.WriteLine("First number:");
+        var firstNumber = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
         
-        Console.WriteLine("(Your first number is processed with the second)");
-        for (var i = 0; i < numbers.Length; i++)
-        {
-            try
-            {
-                Console.WriteLine("Enter a number:");
-                var input = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
-                numbers[i] = input;
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Please enter a valid integer!");
-            }
-        }
+        Console.WriteLine("First number:");
+        var secondNumber = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
 
-        return numbers;
-    }
+        var result = firstNumber + secondNumber;
 
-    public static int SumNumbers(int[] numbers)
-    {
-        var result = numbers[0] + numbers[1];
         return result;
     }
 }

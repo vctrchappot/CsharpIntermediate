@@ -6,8 +6,6 @@ class Program
 {
     private static void Main(string[] args)
     {
-        var input = SumInteger.RetrieveNumbers();
-        var result = SumInteger.SumNumbers(input);
+        var result = SumInteger.SumNumbers();
     }
 }
-

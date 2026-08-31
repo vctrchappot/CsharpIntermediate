@@ -13,7 +13,7 @@ public class CheckInteger {
     {
         try
         {
-            if (!(input >= 0))
+            if (input <= 0)
                 throw new Exception("Negative number was detected");
         }
         catch (Exception exception)
