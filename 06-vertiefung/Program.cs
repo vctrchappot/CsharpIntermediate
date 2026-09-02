@@ -8,6 +8,5 @@ public class Program
         // PatternArrays.PrintPattern(selection);
         
         ConsoleRepeater.WalkX();
-        
     }
 }
