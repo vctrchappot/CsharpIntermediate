@@ -2,4 +2,5 @@
   <Project Path="02-multidimensional-arrays/02-multidimensional-arrays.csproj" />
   <Project Path="03-static-classes-and-methods/03-static-classes-and-methods.csproj" />
   <Project Path="04-exception-handling/04-exception-handling.csproj" />
+  <Project Path="06-vertiefung/06-vertiefung.csproj" />
 </Solution>
