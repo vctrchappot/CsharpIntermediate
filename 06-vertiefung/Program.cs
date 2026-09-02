@@ -7,5 +7,7 @@ public class Program
         // var selection = PatternArrays.SelectPattern();
         // PatternArrays.PrintPattern(selection);
         
+        ConsoleRepeater.WalkX();
+        
     }
 }
