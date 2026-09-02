@@ -4,7 +4,6 @@ public static class MovementValidator
 {
     public static bool IsValidMovement(int widthPos, int topPos, ConsoleKeyInfo pressedKey)
     {
-        bool isValidMovement = true;
 
         switch (pressedKey.Key)
         {
@@ -24,8 +23,8 @@ public static class MovementValidator
             {
                 return widthPos+1 < Console.WindowWidth;
             }
+            default:
+                return false;
         }
-
-        return isValidMovement;
     }
 }

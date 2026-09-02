@@ -5,7 +5,7 @@ public static class PatternArrays
     public static bool[,] SelectPattern()
     {
         Console.WriteLine("Wähle das gewünschte Muster: 1) Weihnachtsbaum, 2) Netz, 3) Kreuz");
-        var selection = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
+        var selection = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException("Bitte gib eine korrekte Ganzzahl ein!"));
         
         var christmasTree = new bool[,]
         {
@@ -56,7 +56,7 @@ public static class PatternArrays
         {
             for (var column = 0; column < selection.GetLength(1); column++)
             {
-                Console.Write(selection[row, column] == true ? 'x' : ' ');
+                Console.Write(selection[row, column] ? 'x' : ' ');
             }
             Console.WriteLine();  
         }

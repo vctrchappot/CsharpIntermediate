@@ -6,13 +6,11 @@ public class ConsoleRepeater
     {
         const char x = 'x';
         
-        // Console.SetWindowSize(120, 60);
         Console.SetCursorPosition(0, 0);
         Console.Write(x);
         
         var widthPos = 0;
         var topPos = 0;
-        Console.SetCursorPosition(widthPos, topPos);
         
         while (true)
         {
@@ -24,29 +22,20 @@ public class ConsoleRepeater
                 {
                     case ConsoleKey.W:
                         topPos--;
-                        Console.Clear();
-                        Console.SetCursorPosition(widthPos, topPos);
-                        Console.Write(x);
                         break;
                     case ConsoleKey.A:
                         widthPos--;
-                        Console.Clear();
-                        Console.SetCursorPosition(widthPos, topPos);
-                        Console.Write(x);
                         break;
                     case ConsoleKey.S:
                         topPos++;
-                        Console.Clear();
-                        Console.SetCursorPosition(widthPos, topPos);
-                        Console.Write(x);
                         break;
                     case ConsoleKey.D:
                         widthPos++;
-                        Console.Clear();
-                        Console.SetCursorPosition(widthPos, topPos);
-                        Console.Write(x);
                         break;
                 }
+                Console.Clear();
+                Console.SetCursorPosition(widthPos, topPos);
+                Console.Write(x);
             }
         }
     }
